@@ -26,6 +26,7 @@ source ~/.bashrc
 mkdir -p ~/.config/nvim/
 wget https://raw.githubusercontent.com/Drew-Alleman/neovim/main/init.vim -O ~/.config/nvim/init.vim
 ```
+Then once the config is set, open neovim and run ```PlugInstall```. 
 
 ## Gnome Extensions
 https://extensions.gnome.org/extension/3088/extension-list/ - Simple GNOME Shell extension manager in the top panel <br>
