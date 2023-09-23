@@ -8,10 +8,23 @@ sudo apt update
 sudo apt upgrade
 sudo apt install neovim
 ```
+
+### Installing Vim-Plug
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
 ### Binding Neovim to ```v```
 ```
 echo "alias v='vim'" >> ~/.bashrc
 source ~/.bashrc
+```
+
+### Installing the Config
+```
+mkdir -p ~/.config/nvim/
+wget https://raw.githubusercontent.com/Drew-Alleman/neovim/main/init.vim -O ~/.config/nvim/init.vim
 ```
 
 ## Gnome Extensions
