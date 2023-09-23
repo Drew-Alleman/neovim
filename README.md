@@ -15,8 +15,8 @@ source ~/.bashrc
 ```
 
 ## Gnome Extensions
-https://extensions.gnome.org/extension/3088/extension-list/ - Simple GNOME Shell extension manager in the top panel
-https://extensions.gnome.org/extension/8/places-status-indicator/ - Add a menu for quickly navigating places in the system.
-https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/ - Removes window is ready Notification
-https://extensions.gnome.org/extension/1036/extensions/ - Enable/disable easily gnome shell extensions from a menu in the top panel. Also allows to edit the settings of the extensions. Feedback welcome!
-https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/ - Bring back the transparent top bar in GNOME Shell with adjustable transparency.
+https://extensions.gnome.org/extension/3088/extension-list/ - Simple GNOME Shell extension manager in the top panel <br>
+https://extensions.gnome.org/extension/8/places-status-indicator/ - Add a menu for quickly navigating places in the system.<br>
+https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/ - Removes window is ready Notification<br>
+https://extensions.gnome.org/extension/1036/extensions/ - Enable/disable easily gnome shell extensions from a menu in the top panel. Also allows to edit the settings of the extensions. Feedback welcome!<br>
+https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/ - Bring back the transparent top bar in GNOME Shell with adjustable transparency.<br>
