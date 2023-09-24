@@ -35,3 +35,23 @@ https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover
 https://extensions.gnome.org/extension/1036/extensions/ - Enable/disable easily gnome shell extensions from a menu in the top panel. Also allows to edit the settings of the extensions. Feedback welcome!<br>
 https://extensions.gnome.org/extension/3960/transparent-top-bar-adjustable-transparency/ - Bring back the transparent top bar in GNOME Shell with adjustable transparency.<br>
 https://extensions.gnome.org/extension/4679/burn-my-windows/ - Disintegrate your windows with style. <br>
+
+## Setting Up Desktop Icons
+### Creating The Applications desktop file
+```
+vim ~/.local/share/applications/mGBA.desktop
+```
+```
+[Desktop Entry]
+Name=mGBA
+Exec=/home/drew/Applications/mGBA-0.10.2-appimage-x64.appimage
+Icon=/home/drew/Pictures/Icons/Mgba-logo.png
+Type=Application
+Terminal=false
+Categories=Game;Emulator;
+```
+### Making it executable and Creating the Desktop Icon
+```
+chmod +x ~/.local/share/applications/mGBA.desktop
+ln -s ~/.local/share/applications/mGBA.desktop ~/Desktop/
+```
